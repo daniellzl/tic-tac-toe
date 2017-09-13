@@ -2,7 +2,7 @@
 
 Play tic-tac-toe against the computer.
 
-[Live Application](tic-tac-toe-dlzl.surge.sh)
+[Live Application](https://tic-tac-toe-dlzl.surge.sh)
 
 ### Project Goals
 
