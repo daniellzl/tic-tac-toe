@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+
+<body>
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title text-center"><strong>Tic Tac Toe</strong></h1>
+				</div>
+				<div class="modal-body text-center">
+					<h2>Please choose X or O and begin!</h2>
+					<h4>(You make the first turn)</h4>
+				</div>
+				<div class="modal-footer">
+					<button id="X" type="button" class="btn btn-lg" data-dismiss="modal">X</button>
+					<button id="O" type="button" class="btn btn-lg" data-dismiss="modal">O</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container text-center">
+		<header>
+			<h1><strong>Tic Tac Toe</strong></h1>
+		</header>
+		<table>
+			<tr>
+				<td id="one"></td>
+				<td id="two"></td>
+				<td id="three"></td>
+			</tr>
+			<tr>
+				<td id="four"></td>
+				<td id="five"></td>
+				<td id="six"></td>
+			</tr>
+			<tr>
+				<td id="seven"></td>
+				<td id="eight"></td>
+				<td id="nine"></td>
+			</tr>
+		</table>
+		<footer class="text-center">
+			<a href="https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game" target="_blank" title="FreeCodeCamp Challenge Instructions"><strong>Credit</strong></a>
+		</footer>
+	</div>
+    <script type="text/javascript" src="./scripts.js"></script>
+</body>
+
+</html>

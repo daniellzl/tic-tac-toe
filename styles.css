@@ -1,0 +1,57 @@
+body {
+    background-color: #68c4af;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.modal-content {
+    background-color: #f7e7b4;
+    color: #68c4af;
+}
+
+table, td {
+    border: 2px solid #f7e7b4;
+    font-size: 2em;
+    margin: auto;
+    color: transparent;
+    text-shadow: 0 0 0 #f7e7b4;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td {
+    height: 150px;
+    width: 150px;
+}
+
+td:hover {
+    background-color: #f7e7b4;
+    cursor: pointer;
+}
+
+.btn, .btn:hover {
+    background-color: #68c4af;
+    color: #f7e7b4;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+footer>a:link, footer>a:visited, footer>a:hover, footer>a:active {
+    text-decoration: none;
+    color: #f7e7b4;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+header {
+    color: #f7e7b4;
+    padding-bottom: 30px;
+}
